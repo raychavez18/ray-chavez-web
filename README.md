@@ -1,2 +1,2 @@
 # ray-chavez-web
-This is the HTML and custom CSS for my portfolio at raychavezweb.com
+This is the HTML/CSS/JS for my portfolio at raychavezweb.com built using the Bootstrap framework.
