@@ -40,6 +40,7 @@
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="slideInHeader">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -49,8 +50,9 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Ray Chavez Web Development</a>
             </div>
-
+            </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="slideInNav">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -67,6 +69,7 @@
                     </li>
                 </ul>
             </div>
+            </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -76,9 +79,15 @@
     <header>
         <div class="container">
             <div class="intro-text">
+                <div class="fade-in one">
                 <div class="intro-lead-in">Hello, I'm Ray</div>
+                </div>
+                <div class="fade-in two">
                 <div class="intro-heading">It's Nice To Meet You</div>
+                </div>
+                <div class="fade-in three">
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                </div>
             </div>
         </div>
     </header>
@@ -87,13 +96,16 @@
     <section id="services">
         <div class="container">
             <div class="row">
+                <div class="fade-in one">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Services</h2>
                     <h3 style="margin-bottom:0px;" class="section-subheading text-muted">If you're looking for someone who pays attention to details, meets deadlines, stays within budget and loves creating great work you've found your guy!</h3>
                     <h3 style="margin-bottom:0px;" class="section-subheading text-muted"> Hello, I'm Ray Chavez and I love making websites. I graduated from the Illinois Institute Of Art-Chicago with a B.A. in Web Design and Interactive Media in 2011. I love developing and finding solutions to complex problems on the web. If I challenge myself everyday while developing websites, I feel that I'm gaining knowledge everyday which is the beauty part of this industry. There is so much to know which makes the internet endless and a beautiful thing. </h3>
                     <h3 class="section-subheading text-muted">In addition to pursuing my passion in technology, I love soccer, basketball, mixed martial arts and eating great food! </h3>
                 </div>
+                </div>
             </div>
+            <div class="fade-in two">
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -120,6 +132,7 @@
                     <p class="text-muted">A website is never finished, even after launch. Keeping content new and fresh is a vital part for any online business to stay alive in today's age. With all the Content Management Systems out there, users now have an easy platform to update their websites right from home. Wordpress is one of the most powerful content management systems today that I am very proficient in. Drupal, Web Publisher and Adobe CQ5 are just a handful of other CMS's I have knowledge in.</p>
                 </div>
             </div>
+            </div>
         </div>
     </section>
 
@@ -133,6 +146,48 @@
                 </div>
             </div>
             <div class="row">
+            <div class="col-md-4 col-sm-12 portfolio-item">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/oranjThumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Oranj</h4>
+                        <p class="text-muted">Financial Tracking Web App</p>
+                    </div>
+            </div>    
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/chicagoPrincipalsThumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>ChicagoPrincipals.com</h4>
+                        <p class="text-muted">Wordpress Integration</p>
+                    </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/saveUpThumb.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>SaveUp.com</h4>
+                        <p class="text-muted">Saveup.com Landing Page Redesign</p>
+                    </div>
+            </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -260,7 +315,6 @@
                         <p class="text-muted">Graphic Design</p>
                     </div>
                 </div>
-                 
             </div>
         </div>
     </section>
@@ -609,7 +663,99 @@
             </div>
         </div>
     </div>
+    
+        <!-- Portfolio Modal 10 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Saveup.com</h2>
+                            <p class="item-intro text-muted">Saveup.com Landing Page Redesign</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/saveUpFull.png" alt="">
+                            <p>This is a landing page resdeign for Saveup.com.</p>
+                            <ul class="list-inline">
+                                <li>Date: 04/2015</li>
+                                <li>Category: UI Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+    
+            <!-- Portfolio Modal 11 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>ChicagoPrincipals.com</h2>
+                            <p class="item-intro text-muted">Wordpress Integration</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/chiacgoPrincipalsFull.png" alt="">
+                            <p>Using Wordpress and a plugin called Ultimate Member I created a simple straight forward website for my client at ChicagoPrincipals.com. This website let's users create a profile, view other profiles within the community and also includes the ability to upload documents for other users to see. Since this website has been set for internal use only, there has been a global password set.</p>
+                            <ul class="list-inline">
+                                <li>Date: 04/2015</li>
+                                <li>Category: Front End Development/Wordpress</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
 
+                <!-- Portfolio Modal 12 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Oranj</h2>
+                            <p class="item-intro text-muted">Financial Tracking Web App</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/oranjFull.png" alt="">
+                            <p>Oranj is a start-up behalf of Main Street Financial (http://www.mainstreetfm.com/). Oranj is a tracking tool for financial and wealth management advisors to track their clients. In this start-up, I helped design and develop updates to Oranj’s web application for deployment. I built the application updates using HTML5/CSS3/JS and the Bootstrap framework. </p>
+                            <ul class="list-inline">
+                                <li>Date: 05/2015</li>
+                                <li>Category: Front End Development/UI Design/Bootstrap</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
