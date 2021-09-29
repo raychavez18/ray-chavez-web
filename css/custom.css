@@ -1025,40 +1025,6 @@ animation-delay: 1.2s;
 animation-delay: 1.6s;
 }
 /*End Fade Animation*/
-/*Start Slide In Animation*/
-.slideInHeader {
-  animation-duration: 2s;
-  animation-name: slideinLogo;
-}
-
-@keyframes slideinLogo {
-  from {
-    margin-left: -150%;
-    width: 300%; 
-  }
-
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
-}
-.slideInNav {
-  animation-duration: 2s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-/*End Slide In Animation*/
 
 /*With Love Animation*/
 
